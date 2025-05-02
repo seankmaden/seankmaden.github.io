@@ -1,6 +1,10 @@
-# metamaden.github.io
+# seankmaden.github.io
 
 Professional website for Sean Maden.
+
+# Access
+
+Access the main professional website at the URL: https://seankmaden.github.io/
 
 # See also
 
