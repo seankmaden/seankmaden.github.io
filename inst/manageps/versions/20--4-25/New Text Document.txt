@@ -1,0 +1,1 @@
+(Get-Content "C:\MyFolder\file.txt") -replace 'oldText', 'newText' | Set-Content "C:\MyFolder\file.txt"
