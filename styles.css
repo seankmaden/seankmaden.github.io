@@ -10,6 +10,16 @@ Additional styles for pages stored at `./inst/styles/*`.
 */
 
 /* The side navigation menu */
+
+.scrollbox {
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
     width: 250px; /* Set the width of the sidebar */
