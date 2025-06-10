@@ -1,0 +1,30 @@
+.menu-box {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out; /* Expanding effect */
+    background: #f8f8f8;
+    padding: 0;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.menu-button {
+    font-size: 18px;
+    font-family: Helvetica;
+    color: #ffb5fb;
+    background-color: hsla(241, 54%, 35%, 1);
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.expanded {
+    max-height: 300px; /* Expands smoothly */
+    padding: 10px;
+}
