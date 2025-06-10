@@ -18,6 +18,7 @@ Additional styles for pages stored at `./inst/styles/*`.
     width: 50vw;/*max-content;/*500px;*/
     height: 300px;
     overflow-y: scroll;
+    overflow-x: scroll;
     border: 1px solid #ccc;
     padding: 10px;
 }

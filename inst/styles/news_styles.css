@@ -16,6 +16,7 @@ Styles for the News webpage.
     background-color: hsla(241, 54%, 35%, 1); /* Black background color */
     border: 2px solid white;
     overflow: scroll;
+    overflow-x: scroll;
 }
 
 .slides {
