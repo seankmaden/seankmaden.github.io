@@ -31,10 +31,52 @@ Additional styles for pages stored at `./inst/styles/*`.
     top: 0; /* Stay at the top */
     left: 0;
     background-color: hsla(241, 54%, 35%, 0.85); /* Black background color */
-    overflow-x: hidden; /* Disable horizontal scroll */
+    overflow-y: scroll;
+    overflow-x: scroll;
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
+
+.menu-box {
+    max-height: 0;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    transition: max-height 0.4s ease-out; /* Expanding effect */
+    background-color: hsla(241, 54%, 35%, 1);
+    font-size: 40px;
+    font-family: Helvetica;
+    color: #ffb5fb;
+    padding: 0;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: hsla(241, 54%, 35%, 1);
+    font-size: 40px;
+    font-family: Helvetica;
+    color: #ffb5fb;
+}
+
+.menu-button {
+    font-size: 18px;
+    font-family: Helvetica;
+    color: #ffb5fb;
+    background-color: hsla(241, 54%, 35%, 1);
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.expanded {
+    max-height: 300px; /* Expands smoothly */
+    padding: 10px;
+}
+
+
 
 .fa {
     padding: 20px 2px 2px 20px;
