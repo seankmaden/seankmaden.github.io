@@ -37,18 +37,45 @@ Additional styles for pages stored at `./inst/styles/*`.
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
+
+
+
+
+.fa {
+    padding: 20px 2px 2px 20px;
+}
+.menu-link a {
+    transition: 0.5s;
+    padding: 20px 2px 2px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffb5fb;
+    &:hover {
+        font-size: 14px;
+    }
+    &:active {
+        font-size: 14px;
+    }
+    &:visited {
+        font-size: 14px;
+    }
+}
+
+/* The navigation menu links */
 .menu-box {
     max-height: 0;
-    overflow-y: scroll;
+    overflow: hidden;
     overflow-x: scroll;
+    overflow-y: scroll;
     transition: max-height 0.4s ease-out; /* Expanding effect */
+    background: #f8f8f8;
+    padding: 0;
+    width: 200px;
     background-color: hsla(241, 54%, 35%, 1);
     font-size: 40px;
     font-family: Helvetica;
     color: #ffb5fb;
-    padding: 0;
     border: 1px solid #ccc;
-    width: 200px;
 }
 
 .menu-item {
@@ -76,56 +103,6 @@ Additional styles for pages stored at `./inst/styles/*`.
     padding: 10px;
 }
 
-
-
-.fa {
-    padding: 20px 2px 2px 20px;
-}
-.menu-link a {
-    transition: 0.5s;
-    padding: 20px 2px 2px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #ffb5fb;
-    &:hover {
-        font-size: 14px;
-    }
-    &:active {
-        font-size: 14px;
-    }
-    &:visited {
-        font-size: 14px;
-    }
-}
-
-/* The navigation menu links */
-.menu-sitemap {
-    pext-decoration: none;
-    color: #ffb5fb;
-    display: block;
-}
-.menu-sitemap a {
-    transition: 0.5s;
-    padding: 2px 2px 2px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    color: #ffb5fb;
-    display: block;
-    &:hover {
-        font-size: 14px;
-    }
-    &:active {
-        font-size: 14px;
-    }
-    &:visited {
-        font-size: 14px;
-    }
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-    color: #f1f1f1;
-}
 /* Position and style the close button (top right corner) */
 .sidenav .closebtn {
     position: absolute;
@@ -147,6 +124,13 @@ Additional styles for pages stored at `./inst/styles/*`.
     left: 30px;/**/
     position: fixed;
 }
+.openbtn {
+    left: 10px;
+    position: flex;
+    align: center;
+}
+
+/* manages the hovering navigation links (top of page) */
 .sticky {
     padding: 10px;
     width: max-content;/*300px;*/
@@ -176,11 +160,6 @@ Additional styles for pages stored at `./inst/styles/*`.
 }
 .name {
     font-size: 20px;
-}
-.openbtn {
-    left: 10px;
-    position: flex;
-    align: center;
 }
 
 .title {
