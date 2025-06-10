@@ -2,10 +2,22 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out; /* Expanding effect */
-    background: #f8f8f8;
+    background-color: hsla(241, 54%, 35%, 1);
+    font-size: 40px;
+    font-family: Helvetica;
+    color: #ffb5fb;
     padding: 0;
     border: 1px solid #ccc;
     width: 200px;
+}
+
+.menu-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: hsla(241, 54%, 35%, 1);
+    font-size: 40px;
+    font-family: Helvetica;
+    color: #ffb5fb;
 }
 
 .menu-button {
@@ -13,11 +25,6 @@
     font-family: Helvetica;
     color: #ffb5fb;
     background-color: hsla(241, 54%, 35%, 1);
-}
-
-.menu-item {
-    padding: 10px;
-    border-bottom: 1px solid #ddd;
 }
 
 .menu-item:last-child {
