@@ -8,7 +8,9 @@ var textArray = [
   'Ad: <a href = "https://xkcd.com/">XKCD | A Webcomic of romance, sarcasm, math, and language</a>',
   'Ad: <a href = "https://theoatmeal.com/">The Oatmeal | Comics by Matthew Inman</a>',
   'Ad: <a href = "https://www.bioconductor.org/">Bioconductor | Open source software for bioinformatics</a>',
-  'Ad: <a href = "https://www.kexp.org/">KEXP | Where the Music Matters</a>'
+  'Ad: <a href = "https://www.kexp.org/">KEXP | Where the Music Matters</a>',
+  'Ad: <a href = "https://www.redbubble.com/people/rainbowrat23/shop">Shop designs by rainbowrat23 | Visit Redbubble</a>',
+  'Ad: <a href = "https://planetquestionmark.bandcamp.com/album/cheesytruths-proper-mix">Rainbow Rat - Cheesy Truths (Digital album out now) | Visit Bandcamp</a>'
 ];
 var randomNumber = Math.floor(Math.random() * textArray.length);
 var randomNumber1 = Math.floor(Math.random() * textArray.length);
@@ -16,10 +18,14 @@ var randomNumber2 = Math.floor(Math.random() * textArray.length);
 var randomNumber3 = Math.floor(Math.random() * textArray.length);
 var randomNumber4 = Math.floor(Math.random() * textArray.length);
 var randomNumber5 = Math.floor(Math.random() * textArray.length);
+var randomNumber6 = Math.floor(Math.random() * textArray.length);
+var randomNumber7 = Math.floor(Math.random() * textArray.length);
 document.getElementById("randomAd").innerHTML = textArray[randomNumber];
 document.getElementById("randomAd1").innerHTML = textArray[randomNumber1];
 document.getElementById("randomAd2").innerHTML = textArray[randomNumber2];
 document.getElementById("randomAd3").innerHTML = textArray[randomNumber3];
 document.getElementById("randomAd4").innerHTML = textArray[randomNumber4];
 document.getElementById("randomAd5").innerHTML = textArray[randomNumber5];
+document.getElementById("randomAd6").innerHTML = textArray[randomNumber6];
+document.getElementById("randomAd7").innerHTML = textArray[randomNumber7];
 
