@@ -12,8 +12,10 @@ Additional styles for pages stored at `./inst/styles/*`.
 /* The side navigation menu */
 
 .scrollbox {
+    position: relative;
+    margin: auto;
     justify-content: center;
-    width: max-content;/*500px;*/
+    width: 50vw;/*max-content;/*500px;*/
     height: 300px;
     overflow-y: scroll;
     border: 1px solid #ccc;
@@ -204,7 +206,7 @@ Additional styles for pages stored at `./inst/styles/*`.
 
 body {
     hieght: 150%;
-    width: max-content;/*100%;*/
+    width: 100vw;/*max-content;/*100%;*/
     /*background-color: #c6c6cc;*/
     background-color: hsla(241, 54%, 35%, 0.9);
     font-family: Helvetica;
