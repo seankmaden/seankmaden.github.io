@@ -4,6 +4,8 @@
 landing animations container
 */
 .landing-container {
+    max-width: 80vw;
+    max-height: 90vw;
     display: inline-block;
     position: relative;
     background-color: #000000;
